@@ -10,7 +10,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandle
 
 # ===== CONFIG =====
 TOKEN = os.getenv("8758864770:AAGsopycO503b7P6S6zs8eKKU_CjYyoCwBs")
-ADMIN_ID = int(os.getenv("7705209352"))
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
 UPI_ID = os.getenv("niteshextema@fam")
 BOT_USERNAME = "instapaidfollowbot"
 
