@@ -11,7 +11,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandle
 # ===== CONFIG =====
 TOKEN = os.getenv("TOKEN")
 ADMIN_ID = int(os.getenv("ADMIN_ID"))
-UPI_ID = os.getenv("niteshextema@fam")
+UPI_ID = os.getenv("UPI_ID")
 BOT_USERNAME = "instapaidfollowbot"
 
 REFERRAL_REWARD = 1
