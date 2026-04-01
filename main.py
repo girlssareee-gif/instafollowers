@@ -9,7 +9,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 
 # ===== CONFIG =====
-TOKEN = os.getenv("8601591233:AAFM2JTNK6P5AZixY3PvQ3CeWX9DNVUWB-I")
+TOKEN = os.getenv("TOKEN")
 ADMIN_ID = int(os.getenv("ADMIN_ID"))
 UPI_ID = os.getenv("niteshextema@fam")
 BOT_USERNAME = "instapaidfollowbot"
